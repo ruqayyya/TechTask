@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+:root {
+  --main-blue: #37447E;
+  --light-blue: #505F98;
+  --base-font:"Roboto", sans-serif;
+}/*# sourceMappingURL=base.css.map */

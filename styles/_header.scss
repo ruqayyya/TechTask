@@ -1,0 +1,35 @@
+.header-container {
+  padding: 15px 180px 0 180px;
+  height: 10%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  nav {
+    ul {
+      display: flex;
+      gap: 25px;
+      li {
+        font-size: 14px;
+        font-family: var(--base-font);
+        color: var(--light-blue);
+      }
+    }
+  }
+  p {
+    font-size: 25px;
+    color: var(--main-blue);
+    font-family: var(--base-font);
+  }
+  .buy-button{
+    button{
+      height: 26px;
+    background-color: #111B47;
+    width: 160px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: white;
+    }
+  }
+}

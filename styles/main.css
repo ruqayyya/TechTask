@@ -1,1 +1,119 @@
-/*# sourceMappingURL=main.css.map */
+.header-container {
+  padding: 15px 180px 0 180px;
+  height: 10%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+}
+.header-container nav ul {
+  display: flex;
+  gap: 25px;
+}
+.header-container nav ul li {
+  font-size: 14px;
+  font-family: var(--base-font);
+  color: var(--light-blue);
+}
+.header-container p {
+  font-size: 25px;
+  color: var(--main-blue);
+  font-family: var(--base-font);
+}
+.header-container .buy-button button {
+  height: 26px;
+  background-color: #111B47;
+  width: 160px;
+  font-size: 12px;
+  text-transform: capitalize;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+:root {
+  --main-blue: #37447E;
+  --light-blue: #505F98;
+  --base-font:"Roboto", sans-serif;
+}
+
+.hero {
+  overflow: hidden;
+}
+.hero .container {
+  align-items: center;
+  margin: 0 auto;
+}
+.hero .container img {
+  height: 40px;
+}
+.hero .container .intro {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  width: 100%;
+  gap: 100px;
+  justify-content: space-between;
+  padding-left: 200px;
+}
+.hero .container .intro .intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  z-index: 5;
+}
+.hero .container .intro .intro-text h1 {
+  font-size: 50px;
+  font-family: var(--base-font);
+  color: #091133;
+}
+.hero .container .intro .intro-text p {
+  font-size: 15px;
+  font-family: var(--base-font);
+  color: var(--light-blue);
+}
+.hero .container .intro .intro-text .button-container {
+  font-size: 16px;
+  font-family: var(--base-font);
+  gap: 15px;
+  display: flex;
+}
+.hero .container .intro .intro-text .button-container .kit {
+  width: 189px;
+  height: 36px;
+  background-color: #091133;
+  color: white;
+  border-radius: 3px;
+}
+.hero .container .intro .intro-text .button-container .learn {
+  background-color: transparent;
+  width: 189px;
+  height: 36px;
+  border: 2px solid #091133;
+  color: #091133;
+  border-radius: 3px;
+}
+.hero .container .intro .img-container .back-image img {
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 150%;
+  z-index: -1;
+  background-size: contain;
+}
+.hero .container .intro .img-container .hero-img img {
+  height: 800px;
+}/*# sourceMappingURL=main.css.map */
